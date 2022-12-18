@@ -1,0 +1,129 @@
+{
+  "common": {
+    "btApplyNow": "Apply Now",
+    "tipSubmitApplyLoanSuccess": "Submit success!"
+  },
+  "ban1": {
+    "need_a": "Need a",
+    "personal_loan": "Personal Loan??",
+    "get_your_loan": "GET YOUR LOAN IN 2 HOURS",
+    "tip1": "If you need an urgent personal loan, apply with us today! We will try our best to approve your loan in just 2 HOURS.",
+    "bt1": "APPLY HERE: GET YOUR LOAN IN 2 HOURS"
+  },
+  "apply": {
+    "title": "Online Loan Application Form",
+    "yourName": "Your Name",
+    "yourContactNumber": "Your Contact Number",
+    "email": "Email",
+    "loanAmount": "Loan Amount(RM)",
+    "loanRequired": "Loan Required",
+    "yourLocation": "Your Location",
+    "jobTitle": "Job Title",
+    "employerName": "Company/Employer Name",
+    "monthlySalary": "Monthly Salary(RM)",
+    "salaryMethod": "Salary Method",
+    "tipErrNoUsername": "Please input your name",
+    "tipErrPhoneVerify": "You must verify your phone number first",
+    "tipErrNoIcNumber": "Please input validate IC number",
+    "tipErrNoAddress": "Please input your address",
+    "tipErrNoPostcode": "Please input validate post code",
+    "tipErrNoEmail": "Please input email",
+    "tipErrNoSurvey": "Please answer the survey question first",
+    "personalLoan": "Personal Loan",
+    "businessLoan": "Business Loan",
+    "collateralizedLoan": "Collateralized Loan",
+    "balanceTransfer": "Balance Transfer",
+    "kualaLumpur": "Kuala Lumpur",
+    "selangor": "Selangor",
+    "others": "Others",
+    "btSubmit": "Submit"
+  },
+  "ban2": {
+    "title1": "3 Steps to Getting Your Loan Today",
+    "sub1": "SUBMIT YOUR LOAN APPLICATION ONLINE",
+    "sub2": "APPROVAL",
+    "sub3": "GET FUNDS",
+    "content1": "Fill up the form found on this page with your details/particulars and submit your application online.",
+    "content2": "Our friendly loan consultation will contact you to confirm a few details. Your loan generally gets approved on the same day (2 hours to 8 hours MAX). Terms & conditions apply*",
+    "content3": "Once your loan is approved, you can choose a few methods to get your funds, either through cash or bank transfer."
+  },
+  "ban3": {
+    "title": "OUR LOAN SERVICES",
+    "sub1": "Personal Loan",
+    "sub2": "Collateralized Loan",
+    "sub3": "Balance Transfer",
+    "content1": "We provide the best personal loan packages in the whole KL and Selangor. We specialize in this field and try our best to approve your personal loan application.",
+    "content2": "If you have any valuable item/asset that can be charged to your loan, you may qualify for a collateralized loan. A loan with a collateral comes with lower interest rates & a more flexible payment terms.",
+    "content3": "Transfer your debt from other third party creditors and combine your debt under one umbrella. This makes it easier for you to manage your debt and finances."
+  },
+  "ban4": {
+    "sub1": "LOW INTEREST RATES",
+    "sub2": "FLEXIBLE REPAYMENT SCHEMES",
+    "sub3": "REPRESENTATIVE EXAMPLE",
+    "content1": "Benefit from the lowest interest rates in Klang Valley when you take out a loan from us.\n\nInterest rates: 8% – 12% APR",
+    "foot1": "For more information, please consult our loan advisors. NO FEES for eligibility check. Find out how much loan you can get from us today.",
+    "content2": "Before funds are credited to your bank account, we allow you the freedom to choose how long you want your loan tenure to be. From a minimum of 6 months up to a maximum of 60 months – so that you can better manage your finances.",
+    "foot2": "Minimum loan term: 6 months",
+    "foot3": "Maximum loan term: 60 months",
+    "content3": "A total loan of RM 5000 is taken out for 6 months.",
+    "content4": "Total interest: RM 448.",
+    "content5": "Total amount payable: RM 5448 *",
+    "foot4": "*Terms and conditions apply. For more information, please contact us. Our friendly loan advisors will provide you with all the information you need."
+  },
+  "ban5": {
+    "cc1": "LOANMALAYSIA.LOAN",
+    "cc2": "YOUR TRUSTED MONEY LENDER IN KL & SELANGOR.",
+    "cc3": "We are a licensed money lender that operates under the regulation of KPKT or Kementerian Perumahan & Kerajaan Tempatan. We strictly obey the law and regulations set forth by the Money Lending Act 1951. It is our goal to stay in this business for the long term, and we have operated successfully for the past 10 years. Our goal is to help you with your financial problems, without charging excessive interest rates that only burden our customers.",
+    "cc4": "Fast Loan Approval.",
+    "cc5": "Flexible Repayment Plan",
+    "cc6": "* For your reference only. There may be some additional fees and charges. Please consult our friendly loan advisor for more information."
+  },
+  "ban6": {
+    "title": "TESTIMONIALS FROM OUR SATISFIED CUSTOMERS",
+    "p1": {
+      "pc1": "Memang berpuas saya dengan layanan serta perkhidmatan yang diberi oleh LoanMalaysia.Loan. Ejen mereka yang mesra membantu saya mencapai kebebasan daripada masalah kewangan yang terdesak! Memang best servis agensi ini! Disyorkan",
+      "pc2": "AMIRUL S.",
+      "pc3": "KUALA LUMPUR",
+      "pc4": "PELANGGAN KAMI"
+    },
+    "p2": {
+      "pc1": "Tiba-tiba saya mengalami masalah kewangan yang begitu urgent apabila kereta saya tergendala di highway NPE dekat Sunway. Kos untuk membaiki kereta beribu-ribu ringgit. Setelah saya menghantarkan permohonan saya di LoanMalaysia.loan, saya mendapat pinjaman pada hari yang sama",
+      "pc2": "TAN WK",
+      "pc3": "SRI KEMBANGAN",
+      "pc4": "PELANGGAN KAMI"
+    }
+  },
+  "ban7": {
+    "col1": {
+      "title": "ADDRESS",
+      "content": "W-1-1, 33 Subang Square Business Centre Jalan SS15/4G, 47500 Subang Jaya Selangor"
+    },
+    "col2": {
+      "title": "OFFICE HOURS",
+      "time1": "Monday to Friday: 10am – 8pm",
+      "time2": "Saturday & Sunday: Tutup"
+    },
+    "col3": {
+      "title": "CUSTOMER SERVICE CHARTER",
+      "content": "We understand it can be daunting when you try to get a loan from a non-bank lender. In these trying times, LoanMalaysia.loan hopes to provide loan services to our customers with a smile. We will explain everything in detail to you regarding fees, interest, and other charges before you sign any contract. There will be no pressure on your side."
+    }
+  },
+  "table1": {
+    "col1": "Total Loan (RM)",
+    "col2": "6 Months",
+    "col3": "12 Months",
+    "col4": "24 Months",
+    "col5": "36 Months",
+    "col6": "48 Months",
+    "col7": "60 Months"
+  },
+  "thankYou": {
+    "thankYou": "Thank You",
+    "tip1": "Thank you for your loan application. Our customer service executive will get in touch with you soon.",
+    "tip2": "Terima kasih atas permohonan pinjaman anda. Pegawai kami akan berhubung dengan anda."
+  },
+  "syserr": {
+    "10001": "System or network error",
+    "10002": "You have applied already"
+  }
+}
