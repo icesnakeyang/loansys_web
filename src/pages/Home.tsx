@@ -245,7 +245,7 @@ const Home = () => {
     return (
         <div style={{padding: 0}}>
             <div style={{
-                backgroundImage: `url("http://localhost:3000/KL-skyline.jpeg")`,
+                backgroundImage: `url("http://tellmeafter.com:8100/KL-skyline.jpeg")`,
                 backgroundPosition: '50%',
                 backgroundBlendMode: 'color',
                 backgroundSize: "cover",
