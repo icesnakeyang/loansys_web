@@ -16,7 +16,7 @@ import {
     Tag
 } from "antd";
 import {useTranslation} from "react-i18next";
-import {DollarCircleFilled, InteractionFilled, WalletFilled} from "@ant-design/icons";
+import {DollarCircleFilled, InteractionFilled, WalletFilled, WhatsAppOutlined} from "@ant-design/icons";
 import {ColumnsType} from "antd/es/table";
 import {useState} from "react";
 import {apiApplyLoan} from "../api/Api";
@@ -244,6 +244,25 @@ const Home = () => {
 
     return (
         <div style={{padding: 0}}>
+            <div style={{}}>
+                {/*<Button href="https://wa.me/60108376136/?text=Hello!">whatsapp</Button>*/}
+                <div style={{
+                    position: "fixed",
+                    right: 10,
+                    top: '50%',
+                    zIndex: '999'
+                }}>
+                    <a href="https://wa.me/60149156294/?text=Hello!"><WhatsAppOutlined
+                        style={{
+                            background: '#28cc65',
+                            fontSize: 40,
+                            color: '#fff',
+                            padding: 10,
+                            borderRadius: 40,
+                        }}/></a>
+                </div>
+            </div>
+
             <div style={{
                 backgroundImage: `url("http://tellmeafter.com:8100/KL-skyline.jpeg")`,
                 backgroundPosition: '50%',
