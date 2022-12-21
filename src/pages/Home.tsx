@@ -206,7 +206,7 @@ const Home = () => {
     const [businessLoan, setBusinessLoan] = useState(false)
     const [collateralizedLoan, setCollateralizedLoan] = useState(false)
     const [balanceTransfer, setBalanceTransfer] = useState(false)
-    const [location, setLocation] = useState('')
+    const [location, setLocation] = useState('KL')
     const [jobTitle, setJobTitle] = useState('')
     const [employerName, setEmployerName] = useState('')
     const [monthlySalary, setMonthlySalary] = useState('')
