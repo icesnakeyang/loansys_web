@@ -1,28 +1,23 @@
 import {
-    Anchor,
     Button,
     Card,
     Carousel,
     Checkbox,
     Col,
-    Divider,
     Form,
     Grid,
     Input,
     message,
     Row,
     Select,
-    Table,
-    Tag
+    Table
 } from "antd";
 import {useTranslation} from "react-i18next";
 import {DollarCircleFilled, InteractionFilled, WalletFilled, WhatsAppOutlined} from "@ant-design/icons";
 import {ColumnsType} from "antd/es/table";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {apiApplyLoan} from "../api/Api";
 import {useNavigate} from "react-router-dom";
-
-// import fss from '../resources/KL-skyline.jpeg'
 
 interface DATA1 {
     key: number
@@ -213,6 +208,59 @@ const Home = () => {
     const [salaryMethod, setSalaryMethod] = useState('')
     const navigate = useNavigate()
 
+    //是否可以移动
+    const [isMoving, setIsMoving] = useState(false)
+    const [lastX, setLastX] = useState(0);
+    const [lastY, setLastY] = useState(0);
+    const [translateX, setTranslateX] = useState(0);
+    const [translateY, setTranslateY] = useState(0);
+    const [isSel, setIsSel] = useState(true)
+
+    useEffect(() => {
+        window.onmousedown = () => mouseDown()
+        window.onmouseup = e => mouseUp(e)
+    })
+
+    const mouseDown = () => {
+        console.log('mouse down')
+        setIsMoving(true)
+    }
+
+    const mouseUp = (e: any) => {
+        console.log('mouse up')
+        if (e != null) {
+
+        }
+        setIsMoving(false)
+    }
+
+    const onMove = (e: any) => isMoving && isSel && move(e)
+
+    const move = (e: any) => {
+        e.stopPropagation()
+        e.preventDefault()
+        if (lastX && lastY) {
+            let dx = e.clientX - lastX
+            let dy = e.clientY - lastY
+            setTranslateX(translateX + dx)
+            setTranslateY(translateY + dy)
+        }
+        setLastX(e.clientX)
+        setLastY(e.clientY)
+    }
+
+    const touchMove = (e: any) => {
+        if (lastX && lastY) {
+            let dx = e.touches[0].clientX - lastX
+            let dy = e.touches[0].clientY - lastY
+            setTranslateX(translateX + dx)
+            setTranslateY(translateY + dy)
+        }
+        setLastX(e.touches[0].clientX)
+        setLastY(e.touches[0].clientY)
+    }
+
+
     const onSubmit = () => {
         let params = {
             yourName,
@@ -244,15 +292,38 @@ const Home = () => {
 
     return (
         <div style={{padding: 0}}>
-            <div style={{}}>
+            <div onClick={() => setIsSel(false)} onTouchStart={() => {
+                setIsSel(false)
+            }}>
                 {/*<Button href="https://wa.me/60108376136/?text=Hello!">whatsapp</Button>*/}
-                <div style={{
-                    position: "fixed",
-                    right: 10,
-                    top: '50%',
-                    zIndex: '999'
-                }}>
-                    <a href="https://wa.me/60149156294/?text=Hello!"><WhatsAppOutlined
+                <div
+                    onClick={(e) => {
+                        setIsSel(true)
+                        e.stopPropagation()
+                    }}
+                    onTouchStart={(e) => {
+                        setIsSel(true)
+                        e.stopPropagation()
+                        console.log(e.touches[0].clientY)
+                        console.log(e.touches[0].clientX)
+                    }}
+                    style={{
+                        position: "fixed",
+                        right: 10,
+                        top: '90%',
+                        zIndex: '999',
+                        transform: `translateX(${translateX}px) translateY(${translateY}px)`
+                    }}
+                    onMouseMove={e => onMove(e)}
+                    onTouchMove={(e: any) => {
+                        console.log('touch move')
+                        console.log(e.touches[0].clientX)
+                        console.log(e.touches[0].clientY)
+                        touchMove(e)
+                    }}
+                >
+                    {/*<a href="https://wa.me/60149156294/?text=Hello!"><WhatsAppOutlined*/}
+                    <a href="https://wa.me/60166199852/?text=Hello!"><WhatsAppOutlined
                         style={{
                             background: '#28cc65',
                             fontSize: 40,
